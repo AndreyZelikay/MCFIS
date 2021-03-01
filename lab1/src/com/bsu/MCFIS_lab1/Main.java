@@ -6,7 +6,7 @@ public class Main {
     private static final String[] exchangeAlphabet = "ИЮЧЪЩЁЗМШСХУРЦЭЬЫНФДБТВЛГАПЯЕОЖКЙ".split("");
 
     public static void main(String[] args) {
-        AffineCipher affineCipher = new AffineCipher(7, 11, alphabet);
+        AffineCipher affineCipher = new AffineCipher(17, 24, alphabet);
         System.out.println(affineCipher.encode("КРИПТОСИСТЕМА"));
         System.out.println(affineCipher.decode(affineCipher.encode("КРИПТОСИСТЕМА")));
 
